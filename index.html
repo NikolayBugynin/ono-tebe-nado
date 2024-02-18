@@ -17,36 +17,32 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit">
-            <a class="header__link" href="#">главная</a>
+            <a class="header__link header__link_active" href="#">главная</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link header__link_active" href="#"
-              >посмотреть лоты</a
-            >
+            <a class="header__link" href="#">посмотреть лоты</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link header__link_active" href="#">об аукционе</a>
+            <a class="header__link" href="#">об аукционе</a>
           </li>
         </ul>
       </nav>
       <div class="header__logo">
-        <a href="#">
+        <a>
           <img
             class="header__logo-image"
             src="./images/logo-black.svg"
             alt="Логотип сайта" />
         </a>
       </div>
-      <div class="header__address">
-        <address>
-          <a href="tel:+99995555555">+9(999) 555 5555</a><br />
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br />
-          <p>
-            наб. Принсенграхт 263-<br />
-            265, Амстердам
-          </p>
-        </address>
-      </div>
+      <address class="header__address">
+        <a href="tel:+99995555555">+9(999) 555 5555</a>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p>
+          наб. Принсенграхт 263-<br />
+          265, Амстердам
+        </p>
+      </address>
     </header>
     <main>
       <section class="cover">
@@ -69,7 +65,7 @@
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">Сделать ставку</button>
+          <button type="button" class="bet-button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
@@ -129,10 +125,13 @@
       </section>
       <section class="about">
         <div class="about__logo">
-          <img class="about__logo-image" src="./images/logo-white.svg" alt="" />
+          <img
+            class="about__logo-image"
+            src="./images/logo-white.svg"
+            alt="Логотип сайта" />
         </div>
-        <section class="about__column">
-          <h3 class="about__title">Об аукционе</h3>
+        <div class="about__column">
+          <h2 class="about__title">Об аукционе</h2>
           <p class="about__text">
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
@@ -148,34 +147,30 @@
             представить современную культуру. Когда в эти вещи не верил никто,
             продолжали верить их создатели. И сейчас эти лоты стали культовыми.
           </p>
-        </section>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__address">
-        <address>
-          <a href="tel:+99995555555">+9 999 555 5555</a><br />
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br />
-          <p>
-            наб. Принсенграхт 263-<br />
-            265, Амстердам
-          </p>
-        </address>
-      </div>
+      <address class="footer__address">
+        <a href="tel:+99995555555">+9 999 555 5555</a><br />
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p>
+          наб. Принсенграхт 263-<br />
+          265, Амстердам
+        </p>
+      </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link" href="#">главная</a>
-          </li>
-          <li class="footer__menu-list-item">
             <a class="footer__menu-link footer__menu-link_active" href="#"
-              >посмотреть лоты</a
+              >главная</a
             >
           </li>
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link footer__menu-link_active" href="#"
-              >об аукционе</a
-            >
+            <a class="footer__menu-link" href="#">посмотреть лоты</a>
+          </li>
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link" href="#">об аукционе</a>
           </li>
         </ul>
       </nav>
