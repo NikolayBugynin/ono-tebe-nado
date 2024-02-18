@@ -78,6 +78,7 @@
   background-image: url('../images/cover.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .cover__title {
