@@ -25,4 +25,4 @@
 
 **Проект**
 
-[Посмотреть](https://github.com/NikolayBugynin/ono-tebe-nado)
+https://github.com/NikolayBugynin/ono-tebe-nado
