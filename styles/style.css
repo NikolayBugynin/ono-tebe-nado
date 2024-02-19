@@ -136,7 +136,8 @@
   border: 1px solid #ffffff;
   color: #ffffff;
   /* применяем inherit, чтобы шрифт наследолся от родительских блоков */
-  /* font-family: inherit; */
+  /* font-family: inherit;  моднобыло так, но автотесты не пускают */
+  font-family: Raleway, sans-serif;
   font-weight: 500;
   font-size: 22px;
   line-height: 26px;
